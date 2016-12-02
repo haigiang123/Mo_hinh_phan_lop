@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div>
+    <div class="panel panel-default nn-contenttitle text-center">
+        <div class="panel-heading">
+            <strong>Khách Hàng</strong>
+        </div>
+    </div>
+    <table class="table table-hover table-responsive">
+        <thead>
+            <tr class="alert-warning">
+                <td>Tên Đoàn</td>
+                <td>Số Điện Thoại</td>
+                <td>Giới tính</td>
+                <td>Đại Chỉ</td>
+                <td>Số Passport</td>
+                <td>Tình Trạng</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.TenKhachHang</td>
+                    <td>@item.SDT</td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.DiaChi</td>
+                    <td>@item.PassportNumber</td>
+                    <td>@(item.TinhTrang ? "Chưa Có Đoàn" : "Đã Có Đoàn")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

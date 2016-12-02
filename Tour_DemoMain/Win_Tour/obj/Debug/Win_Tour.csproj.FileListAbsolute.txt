@@ -1,0 +1,24 @@
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\bin\Debug\Win_Tour.exe.config
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\bin\Debug\Win_Tour.exe
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\bin\Debug\Win_Tour.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\obj\Debug\Win_Tour.csprojResolveAssemblyReference.cache
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\obj\Debug\Win_Tour.Properties.Resources.resources
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\obj\Debug\Win_Tour.csproj.GenerateResource.Cache
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\obj\Debug\Win_Tour.exe
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Win_Tour\obj\Debug\Win_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\bin\Debug\Win_Tour.exe.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\bin\Debug\Win_Tour.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\bin\Debug\Win_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\obj\Debug\Win_Tour.Properties.Resources.resources
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\obj\Debug\Win_Tour.csproj.GenerateResource.Cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\obj\Debug\Win_Tour.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Win_Tour\obj\Debug\Win_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\bin\Debug\Win_Tour.exe.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\bin\Debug\Win_Tour.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\bin\Debug\Win_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.Properties.Resources.resources
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.csproj.GenerateResource.Cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Win_Tour\obj\Debug\Win_Tour.Form1.resources

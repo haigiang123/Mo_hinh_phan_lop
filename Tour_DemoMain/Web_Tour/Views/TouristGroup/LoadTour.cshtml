@@ -1,0 +1,55 @@
+﻿@model EF.Tour
+@{
+    ViewBag.Title = "LoadTour";
+}
+<div class="panel panel-default nn-contenttitle text-center">
+    <div class="panel-heading">
+        <strong>Thông Tin Tour</strong>
+    </div>
+</div> 
+<div class="form-horizontal">
+    @if (Model != null)
+    {
+        <div class="form-group form">
+            @Html.HiddenFor(Model => Model.MaTour, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.HiddenFor(Model => Model.MaTour, new { @class = "form-control" })
+            </div>
+        </div>
+            <div class="form-group">
+
+                <label class="control-label col-md-2">Tên Tour</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(Model => Model.TenTour, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Số Ngày</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(Model => Model.SoNgay, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Số Đêm</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(Model => Model.SoDem, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Mùa</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(Model => Model.Mua, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-center" style="margin-top:30px;">
+                    <label>Mô Tả</label>
+                </div>
+                <div style="margin:0 20px;">
+                    @Html.Raw(@ViewBag.Mota)
+                </div>
+                
+            </div>
+
+    }
+</div>

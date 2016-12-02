@@ -1,0 +1,14 @@
+﻿
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <span class="glyphicon glyphicon-th-list"></span>
+        <strong>Danh Mục</strong>
+    </div>
+
+    <div class="list-group">
+        @foreach (var c in ViewBag.Cates)
+        {
+            <a href="#" class="list-group-item">@c</a>
+        }
+    </div>
+</div>

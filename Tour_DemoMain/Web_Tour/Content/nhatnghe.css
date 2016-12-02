@@ -1,0 +1,51 @@
+﻿.container{
+    margin-top:-30px;
+}
+
+.nn-header{
+    position:relative;
+    height:100px;
+}
+
+.nn-company{
+    font-family:Impact;
+    font-size:35px;
+    text-shadow:0 0 2px black;
+    position:absolute;
+    top:-20px;
+    padding-bottom:2px;
+    border-bottom:1px dotted gray;
+}
+
+.nn-slogan{
+    position:absolute;
+    top:35px;
+}
+
+.nn-sheet{
+    
+    border-radius:10px;
+    padding:5px;
+    position:relative;
+    top:-10px;
+}
+
+.nn-body{
+    padding:5px;
+    min-height:550px;
+}
+
+.nn-contenttitle{
+    border-radius:-25px;
+    margin:-25px -20px 10px -20px;
+
+}
+
+.nn-page{
+    text-align:center;
+    margin-bottom:20px;    
+}
+
+.nn-artical{
+    box-shadow:0 0 5px lightgray;
+}

@@ -1,0 +1,65 @@
+﻿@model List<Web_Tour.Models.statistic>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="panel panel-default nn-contenttitle text-center">
+    <div class="panel-heading">
+        <strong>Tình Trạng Đi Tour Của Khách Hàng</strong>
+    </div>
+</div> 
+
+@using (Html.BeginForm("Index", "Statistics",FormMethod.Post))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.Label("Ten Khach Hang", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("MaKhachHang", null, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("To", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("date1", null, new { @class = "form-control", @type = "date" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("From", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("date2", null, new { @class = "form-control", @type = "date" })
+            </div>
+        </div>
+        <button class="btn btn-danger text-center">Statistic</button>
+    </div>
+}
+
+@{
+    if (Model != null)
+    {
+        <br />
+        <hr />
+       <table class="table table-hover table-responsive">
+           <thead>
+               <tr class="alert-warning">
+                   <td>Tên Đoàn</td>
+                   <td>Tên Tour</td>
+                   <td>Ngày Khởi Hành</td>
+                   <td>Ngày Kết Thúc</td>
+               </tr>
+           </thead>
+           <tbody>
+               @foreach (var item in Model)
+               {
+                <tr>
+                    <td>@item.TenDoan</td>
+                    <td>@item.TenDoan</td>
+                    <td>@Html.FormatValue(item.NgayKhoiHanh,"{0:dd-MM-yyyy}")</td>
+                    <td>@Html.FormatValue(item.NgayKetThuc,"{0:dd-MM-yyyy}")</td>
+                </tr>
+               }              
+           </tbody>
+       </table>
+    }
+}

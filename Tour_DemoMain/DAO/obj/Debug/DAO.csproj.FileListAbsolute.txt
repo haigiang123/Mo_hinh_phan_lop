@@ -1,0 +1,11 @@
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\DAO\bin\Debug\DAO.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\DAO\bin\Debug\DAO.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\DAO\bin\Debug\DAO.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\DAO\obj\Debug\DAO.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\DAO\obj\Debug\DAO.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\bin\Debug\DAO.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\bin\Debug\DAO.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\bin\Debug\DAO.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\obj\Debug\DAO.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\DAO\obj\Debug\DAO.pdb

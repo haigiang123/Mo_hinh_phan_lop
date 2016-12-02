@@ -1,0 +1,193 @@
+﻿@model List<Web_Tour.Models.CusInfoA>
+@{
+    ViewBag.Title = "SearchCustomer";
+}
+
+<h2>SearchCustomer</h2>
+<table class="table table-hover table-condensed" id="nn-table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Ten Khach Hang</th>
+            <th>SDT</th>
+            <th>Gioi Tinh</th>
+            <th>Dia Chi</th>
+            <th>Passport Number</th>
+            <th>Tinh Trang</th>
+        </tr>
+    </thead>
+    <tbody class="result">
+        @{
+            var a = 0;
+            foreach (var item in Model)
+            {
+                a++;
+                <tr>
+                    <td>@a</td>
+                    <td>@item.TenKhachHang</td>
+                    <td>@item.SDT</td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.DiaChi</td>
+                    <td>@item.PassportNumber</td>
+                    <td><a href="#" data-id="@item.MaKhachHang" data-dd="@item.MaDoan" class="btn-war">@(item.Chitiet ? "Success" : "Cancel")</a></td>
+                </tr>
+            } }
+    </tbody>
+</table>
+
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Thêm Khách Hàng
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        @Html.Label("Tên Khách Hàng", htmlAttributes: new { @class = "control-label col-md-4" })
+                        <div class="col-md-8">
+                            @Html.TextBox("TenKhachHang", null, new { @class = "form-control nn-cus" })
+                        </div>
+                    </div>
+                    <table class="table table-hover table-condensed" id="nn-tablecus">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ten Khach Hang</th>
+                                <th>SDT</th>
+                                <th>Passport Number</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="resultcus"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="keyword" class="btn btn-default">Click</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    $(function () {
+        $(".btn-war").off("click").on("click", function (e) {
+
+            e.preventDefault();
+            var btn = $(this);
+            var id = btn.data('id');
+            var dd = btn.data('dd');
+            $.ajax({
+                url: "/TouristGroup/UpdateStatusCustom",
+                data: {
+                    id: id,
+                    dd: dd
+                },
+                datatype: "json",
+                type: "POST",
+                success: function (response) {
+                    if (response.status == true) {
+                        btn.text('Success');
+                    }
+                    else {
+                        btn.text('Cancel');
+                    }
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    $(function () {
+
+        $(".nn-cus").keyup(function () {
+            var value = $(this).val();
+            var stt = 0;
+            $.ajax({
+                url: "/TouristGroup/JsonSearch",
+                data: { Keyword: value },
+                type: "POST",
+                success: function (response) {
+                    $("tbody.resultcus").html("");// xóa nội dung tbody
+                    $(response).each(function (index, item) {
+                        stt++;
+                        tr = $("<tr/>");
+                        tr.append($("<td/>").html(stt));
+                        tr.append($("<td/>").html(item.TenKhachHang));
+                        tr.append($("<td/>").html(item.SDT));
+                        tr.append($("<td/>").html(item.PassportNumber));
+                        tr.append($("<td/>").html("<buttuon class='btn btn-default nn-srcus' value='" + item.TenKhachHang + "'>Thêm</button>"));
+                        $("tbody.resultcus").append(tr);
+                    });
+                }
+            });
+        });
+
+    });
+</script>
+
+<script>
+    $(function () {
+        $(".nn-srcus").click(function () {
+            var value1 = $("#MaKhachHang").val();
+            var ss = $(this).val();
+            var oTable = document.getElementById('nn-table');
+            var rowLength = oTable.rows.length;
+            var c = 0;
+            $.ajax({
+                url: "/TouristGroup/JsonSearch",
+                data: { Keyword: value1 },
+                type: "POST",
+                success: function (response) {
+
+                    $(response).each(function (index, item) {
+                        for (i = 1; i < rowLength; i++) {
+
+                            var oCells = oTable.rows.item(i).cells;
+
+                            var cellLength = oCells.length;
+
+                            //loops through each cell in current row
+                            //for (var j = 0; j < cellLength; j++) {
+                            /* get your cell info here item(j) */
+                            var cellVal = oCells.item(5).innerHTML;
+                            //}
+                            if (cellVal == ss) {
+                                c++;
+                            }
+                        }
+                        if (c != 0) {
+                            alert("Khách Hàng Đã Tồn Tại");
+                        }
+                        else if (c == 0) {
+                            tr = $("<tr/>");
+                            tr.append($("<td/>").html(rowLength));
+                            tr.append($("<td/>").html(item.TenKhachHang));
+                            tr.append($("<td/>").html(item.SDT));
+                            tr.append($("<td/>").html(item.GioiTinh));
+                            tr.append($("<td/>").html(item.DiaChi));
+                            tr.append($("<td/>").html(item.PassportNumber));
+                            tr.append($("<td/>").html("New"));
+                            $("tbody.result").append(tr);
+                        }
+                    });
+
+                }
+            });
+        });
+
+    });
+</script>

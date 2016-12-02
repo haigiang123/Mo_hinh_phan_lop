@@ -1,0 +1,121 @@
+﻿@model EF.Tour
+
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    var a = (PagedList.IPagedList<Web_Tour.Models.ReportInfo>)ViewBag.Tour;
+}
+<div class="panel panel-default nn-contenttitle text-center">
+    <div class="panel-heading">
+        <strong>Đoàn Du Lịch</strong>
+    </div>
+</div>
+<div class="form-group">
+    @using (Html.BeginForm("Index", "TouristGroup", FormMethod.Post))
+    {
+        <div class="row" style="margin-right:-200px;">
+            <div class="col-md-6">  </div>
+            <div class="col-md-6 row">
+                <div class="col-md-6">
+                    <input type="text" value="@ViewBag.SearchString" class="form-control" name="SearchString" placeholder="Tên Đoàn" />
+                </div>
+                <div class="col-md-6" style="margin-left:-12px;">
+                    <button type="submit" class="btn btn-default">Tìm Kiếm</button>
+                    <a class="btn btn-default" href="/TouristGroup/Insert">Thêm</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="row form-group">
+    <table class="table table-hover table-condensed text-center">
+        <thead>
+            <tr>
+                <td>Tên Đoàn</td>
+                <td>Tên Tour</td>
+                <td>Ngày Khởi Hành</td>
+                <td>Ngày Kết Thúc</td>
+                <td>Tình Trạng</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in a)
+            {
+                <tr>
+                    <td><a href="/TouristGroup/SearchCustomer/@item.MaDoan">@item.TenDoan</a></td>
+                    <td><a href="/TouristGroup/LoadTour/@item.MaTour">@item.TenTour</a></td>
+                    <td>@Html.FormatValue(item.NgayKhoiHanh, "{0:dd/MM/yyyy}")</td>
+                    <td>@Html.FormatValue(item.NgayKetThuc, "{0:dd/MM/yyyy}")</td>
+
+                    @if (item.TinhTrang == 1)
+                    {
+                        <td>
+                            <a href="#" data-id="@item.MaDoan" class="btn-war">
+                                <span>Đã Đăng Ký</span></a>
+                        </td>
+                        <td><a href="/TouristGroup/Update/@item.MaDoan">Sửa</a></td>
+                    }
+                    else if (item.TinhTrang == 2)
+                    {
+                        <td>
+                            <a href="#" data-id="@item.MaDoan" class="btn-war">
+                                <span>Hủy</span></a>
+                        </td>
+                        <td><a href="/TouristGroup/Update/@item.MaDoan">Sửa</a></td>
+                    }
+                    else if (item.TinhTrang == 3)
+                    {
+                        <td>
+                            <a href="#" data-id="@item.MaDoan" class="btn-war">
+                                <span class="alert-danger">Đã Kết Thúc</span>                              
+                            </a>
+                        </td>
+                        <td></td>
+                    }
+                        @*<td>@Html.ActionLink("Edit","LoadTour", "TouristGroup",new { id=@item.MaDoan})</td>*@
+                    </tr>
+                    }
+        </tbody>
+    </table>
+
+    <div class="nn-page">
+        @Html.PagedListPager(a, page => Url.Action("Index", new { page, @searchString = @ViewBag.SeachString }))
+    </div>
+
+    
+</div>
+
+<script>
+    $(function () {
+        $(".nn-a button").click(function () {
+            var action = $(this).attr("data-action");
+            this.form.action = "/TouristGroup/" + action;
+        });
+    });
+</script>
+<script>
+    $(function () {
+        $(".btn-war").off("click").on("click", function (e) {
+            e.preventDefault();
+            var btn = $(this);
+            var id = btn.data('id');
+            $.ajax({
+                url: "/TouristGroup/UpdateStatus",
+                data: { id: id },
+                datatype: "json",
+                type: "POST",
+                success: function (response) {
+                    if (response.status == 1) {
+                        btn.text('Đã Đăng Ký');
+                    }
+                    else if(response.status==2) {
+                        btn.text('Hủy');
+                    }
+
+                }
+            });
+        });
+    });
+</script>

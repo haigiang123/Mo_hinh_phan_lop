@@ -1,0 +1,10 @@
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\BUS\bin\Debug\BUS.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\BUS\bin\Debug\BUS.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\BUS\bin\Debug\BUS.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\BUS\obj\Debug\BUS.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\BUS\obj\Debug\BUS.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\BUS\bin\Debug\BUS.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\BUS\bin\Debug\BUS.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\BUS\bin\Debug\BUS.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\BUS\obj\Debug\BUS.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\BUS\obj\Debug\BUS.pdb

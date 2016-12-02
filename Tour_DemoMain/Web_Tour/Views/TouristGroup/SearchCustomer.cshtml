@@ -1,0 +1,199 @@
+﻿@model List<Web_Tour.Models.CusInfoA>
+@{
+    ViewBag.Title = "SearchCustomer";
+}
+
+<div class="panel panel-default nn-contenttitle text-center">
+    <div class="panel-heading">
+        <strong>Thêm Khách Có Sẵn</strong>
+    </div>
+</div>
+<form action="/TouristGroup/AddCus" method="post">
+    <input type="text" hidden value="@ViewBag.madoan" name="madoan" />
+    <table class="table table-hover table-condensed" id="nn-table">
+        <thead>
+            <tr>
+                <th>Số Thứ Tự</th>
+                <th>Tên Khách Hàng</th>
+                <th>Điện Thoại</th>
+                <th>Giới Tính</th>
+                <th>Địa Chỉ</th>
+                <th>Số Passport</th>
+                <th>Tình Trạng</th>
+            </tr>
+        </thead>
+        <tbody class="result">
+            @{
+                var a = 0;
+                foreach (var item in Model)
+                {
+                    a++;
+                    <tr>
+                        <td>@a</td>
+                        <td>@item.TenKhachHang</td>
+                        <td>@item.SDT</td>
+                        <td>@item.GioiTinh</td>
+                        <td>@item.DiaChi</td>
+                        <td>@item.PassportNumber</td>
+                        @if (@item.checktinhtrang == 1 || @item.checktinhtrang == 2)
+                        {
+                            <td><a href="#" data-id="@item.MaKhachHang" data-dd="@item.MaDoan" class="btn-war btn btn-default">@(item.Chitiet ? "Đã Đăng Ký" : "Hủy Đăng Ký")</a></td>
+                        }
+                        else if (@item.checktinhtrang == 3)
+                        {
+                            <td><a href="#" data-id="@item.MaKhachHang" data-dd="@item.MaDoan" class="btn-warnon btn btn-default">@(item.Chitiet ? "Đã Đăng Ký" : "Hủy Đăng Ký")</a></td>
+                        }
+
+                    </tr>
+                } }
+        </tbody>
+    </table>
+    @if (ViewBag.checkstatus == 1)
+    {
+        <div class="pull-right" style="margin-bottom:10px;">
+            <a href="#" class="btn btn-primary " data-toggle="modal" data-target="#myModal">
+                Thêm Khách Đoàn
+            </a>
+            <button class="btn btn-danger ">Lưu Đoàn Khách</button>
+        </div>
+    }
+
+
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        @Html.Label("Tên Khách Hàng", htmlAttributes: new { @class = "control-label col-md-4" })
+                        <div class="col-md-8">
+                            @Html.DropDownList("MaKhachHang", null, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="keyword" class="btn btn-default">Thêm</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(".btn-war").off("click").on("click", function (e) {
+
+            e.preventDefault();
+            var btn = $(this);
+            var id = btn.data('id');
+            var dd = btn.data('dd');
+            $.ajax({
+                url: "/TouristGroup/UpdateStatusCustom",
+                data: {
+                    id: id,
+                    dd: dd
+                },
+                datatype: "json",
+                type: "POST",
+                success: function (response) {
+                    if (response.status == true) {
+                        btn.text('Đã Đăng Ký');
+                    }
+                    else {
+                        btn.text('Hủy Đăng Ký');
+                    }
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(function () {
+        $(".btn-warnon").click(function () {
+            alert("Đoàn Đã Kết Thúc");
+            return false;
+        });
+
+    });
+</script>
+<script>
+        $(function () {
+            $("#keyword").click(function () {
+                var value1 = $("#MaKhachHang").val();
+                var oTable = document.getElementById('nn-table');
+                var rowLength = oTable.rows.length;
+                var c = 0;
+                $.ajax({
+                    url: "/TouristGroup/JsonSearch",
+                    data: { Keyword: value1 },
+                    type: "POST",
+                    success: function (response) {
+
+                        $(response).each(function (index, item) {
+                            for (i = 1; i < rowLength; i++) {
+
+                                var oCells = oTable.rows.item(i).cells;
+
+                                var cellLength = oCells.length;
+
+                                //loops through each cell in current row
+                                //for (var j = 0; j < cellLength; j++) {
+                                /* get your cell info here item(j) */
+                                var cellVal = oCells.item(5).innerHTML;
+                                //}
+                                if (cellVal == item.PassportNumber) {
+                                    c++;
+                                }
+                            }
+                            if (c != 0) {
+                                alert("Khách Hàng Đã Tồn Tại");
+                            }
+                            else if (c == 0) {
+                                tr = $("<tr/>");
+                                tr.append($("<td/>").html(rowLength + "<input name='makhachhang' hidden value='" + item.MaKhachHang + "' type='text' />"));
+                                tr.append($("<td/>").html(item.TenKhachHang));
+                                tr.append($("<td/>").html(item.SDT));
+                                tr.append($("<td/>").html(item.GioiTinh));
+                                tr.append($("<td/>").html(item.DiaChi));
+                                tr.append($("<td/>").html(item.PassportNumber));
+                                tr.append($("<td/>").html("<input value='Mới Đăng Ký' type='button' class='btn btn-default' onclick='deletecus(this)' />"));
+                                $("tbody.result").append(tr);
+                            }
+                        });
+
+                    }
+                });
+            });
+
+        });
+</script>
+<script>
+    function deletecus(r) {
+        var i = r.parentNode.parentNode.rowIndex;
+        var tmp = 1;
+        var table = document.getElementById("nn-table");
+
+        for (var z = 1; z < table.rows.length; z++) {
+            //alert("2"+table1.rows[z].cells[0].firstChild.value);
+            if (z == i) {
+                document.getElementById("nn-table").deleteRow(z);
+                table.rows.length--;
+                z--;
+                break;
+            }
+        }
+
+        for (var z = 1; z < table.rows.length; z++) {
+            table.rows.item(z).cells.item(0).innerHTML = tmp;
+            tmp++;
+        }
+    }
+</script>

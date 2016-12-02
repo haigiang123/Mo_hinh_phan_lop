@@ -1,0 +1,185 @@
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\ApplicationInsights.config
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\csc.exe
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\vbc.exe
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\VBCSCompiler.exe
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Web_Tour.dll.config
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Web_Tour.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Web_Tour.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Antlr3.Runtime.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.Web.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.ApplicationInsights.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Newtonsoft.Json.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Helpers.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Mvc.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Optimization.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Razor.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.Deployment.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.Razor.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\WebGrease.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.Web.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.ApplicationInsights.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Helpers.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Mvc.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Optimization.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.Razor.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.Deployment.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\System.Web.WebPages.Razor.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Antlr3.Runtime.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\Newtonsoft.Json.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\obj\Debug\Web_Tour.csprojResolveAssemblyReference.cache
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\obj\Debug\Web_Tour.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\obj\Debug\Web_Tour.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\EF.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\EntityFramework.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\EF.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\Web_Tour\bin\EntityFramework.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\Web_Tour\bin\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\Web_Tour\bin\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\Web_Tour\bin\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\Web_Tour\bin\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\ApplicationInsights.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\csc.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\vbc.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Web_Tour.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Web_Tour.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Web_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Antlr3.Runtime.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\EntityFramework.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.Web.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Newtonsoft.Json.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Helpers.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Optimization.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Razor.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\WebGrease.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\EntityFramework.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.Web.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Helpers.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Optimization.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.Razor.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Antlr3.Runtime.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\bin\Newtonsoft.Json.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\obj\Debug\Web_Tour.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\obj\Debug\Web_Tour.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\Web_Tour\obj\Debug\Web_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\ApplicationInsights.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\csc.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\vbc.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Web_Tour.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Web_Tour.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Web_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Antlr3.Runtime.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EntityFramework.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.Web.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Newtonsoft.Json.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Helpers.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Optimization.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Razor.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\WebGrease.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EntityFramework.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.Web.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Helpers.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Optimization.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.Razor.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Antlr3.Runtime.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\Newtonsoft.Json.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\obj\Debug\Web_Tour.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\obj\Debug\Web_Tour.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\obj\Debug\Web_Tour.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EntityFramework.SqlServer.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\Web_Tour\bin\EntityFramework.SqlServer.xml

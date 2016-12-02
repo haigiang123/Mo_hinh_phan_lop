@@ -1,0 +1,37 @@
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\bin\Debug\EF.dll.config
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\bin\Debug\EF.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\bin\Debug\EF.pdb
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\bin\Debug\EntityFramework.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\bin\Debug\EntityFramework.xml
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\obj\Debug\EF.dll
+c:\users\hai\documents\visual studio 2015\Projects\Tour_Demo\EF\obj\Debug\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\EF\bin\Debug\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\EF\bin\Debug\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\EF\bin\Debug\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo\EF\bin\Debug\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\EF.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\EntityFramework.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\EntityFramework.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\bin\Debug\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\obj\Debug\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\obj\Debug\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_Demo - Copy\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EF.dll.config
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EntityFramework.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\PagedList.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\PagedList.Mvc.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EntityFramework.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\PagedList.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\PagedList.Mvc.xml
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\obj\Debug\EF.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\obj\Debug\EF.pdb
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hai\Documents\Visual Studio 2015\Projects\Tour_DemoMain\EF\bin\Debug\EntityFramework.SqlServer.xml
